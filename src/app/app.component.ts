@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cadPessoSimples';
+  nome = null;
+  pessoas = [
+    'Pessoa 1',
+    'Pessoa 2'
+  ];
+  adicionar(nome){
+    this.pessoas.push(this.nome);
+    this.nome = null;
+  }
 }

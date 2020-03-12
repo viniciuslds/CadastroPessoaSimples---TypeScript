@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "cadPessoSimples": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cadPessoSimples"
+    }
+  },
+  "defaultProject": "cadPessoSimples",
+  "cli": {
+    "analytics": "639cc74a-eb1a-4f6e-b396-40705b0fc64b"
+  }
 }
